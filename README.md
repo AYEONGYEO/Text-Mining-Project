@@ -10,5 +10,5 @@
 > crawiling naver news   
 > data preprocessing    
 > calculate tf (term frequency)   
-> calculate ngram(related search terms)  
+> calculate ngram (related search terms)  
    
