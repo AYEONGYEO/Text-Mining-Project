@@ -2,7 +2,6 @@
 - Developent enviroment setting
 
 > python 3.x ver study   
-> linux os    
 > database - elasticsearch, mysql   
 > web - spring boot 2.x ver with mybatis, thymeleaf, AM chart   
    
@@ -12,3 +11,6 @@
 > calculate tf (term frequency)   
 > calculate ngram (related search terms)  
    
+***
+### 1. crawling naver news
+this is using Korean   
