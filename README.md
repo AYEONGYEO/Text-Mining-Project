@@ -1,4 +1,5 @@
-# Text Mining Project
+# Text Mining Project   
+문서 수집 (crawling) > 형태소 분석 (koNLPy) > 시각화 (web, spring-boot, wordcloud, amcharts)
 - Developent enviroment setting
 
 > python 3.x ver study   
