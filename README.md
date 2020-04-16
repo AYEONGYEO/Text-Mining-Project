@@ -57,7 +57,7 @@ this is using Korean
 
 - 시연 동영상   
 주제 : 2020 도쿄 올림픽   
-https://www.youtube.com/watch?v=fTSoUUpPoDI&feature=youtu.be
-[![web testing](https://ㅑㅡㅎ.youtube.com/watch?v=fTSoUUpPoDI/0.jpg)](https://www.youtube.com/watch?v=fTSoUUpPoDI?t=0s)
+   
+[![web testing](https://img.youtube.com/vi/fTSoUUpPoDI/maxresdefault.jpg)](https://www.youtube.com/watch?v=fTSoUUpPoDI?t=0s)
 
 
