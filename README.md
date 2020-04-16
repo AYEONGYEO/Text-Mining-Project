@@ -15,3 +15,8 @@
 ### 1. crawling naver news
 this is using Korean   
 - BuautifulSoup - bs4 and selenium   
+- upload 4 version of crawling   
+> korean window os   
+> korean linux os   
+> english window os   
+> english linux os   
