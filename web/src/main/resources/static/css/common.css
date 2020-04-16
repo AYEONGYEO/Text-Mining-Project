@@ -1,0 +1,22 @@
+#wordcloud{
+  width: 100%;
+  height: 500px;
+}
+
+#network{
+	width: 100%;
+	height: 550px;
+}
+
+#barchart{
+	width :100%;
+	height : 700px;
+}
+
+.invisible{
+	visibility: hidden ;
+}
+
+.visible{
+	visibility: visible ;
+}

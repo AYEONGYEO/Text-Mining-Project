@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>test</title>
+
+</head>
+<body>
+	<h1>db 에서 table 값 가져오기 - test 후에 json 파일로 변환해야 함</h1>
+	
+	<p th:each = "instance : ${chartList}" th:text="${instance.id}" ></p>
+	
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="chart">
+
+	<!-- word TF 에서 값 가져와서 AM chart 넣어보려고 테스트! -->
+	<select id="selectWordJson" resultType="hashmap">
+		select noun, count 
+		from olympic.WORDTF_from20200309to20200409_TB
+		limit 25;
+	</select>
+	
+	<select id="searchRealtedWord" resultType="hashmap" parameterType="String">
+		select relatedword as name, count as value
+		from olympic.TOPWORDNGRAM_TB
+		where topword = #{word}
+		limit 10;
+	</select>
+	
+	<select id="getTopTen" resultType="hashmap">
+		select noun, count, percentage
+		from olympic.WORDTF_from20200309to20200409_TB
+		limit 10; 
+	</select>
+	
+	<select id="getBarChartValues" resultType="hashmap" parameterType="String">
+		select noun, percentage
+		from olympic.${table} as a
+		where EXISTS (
+						select *
+						from olympic.WORDTF_from20200309to20200409_TB as b
+						where b.noun = a.noun
+					)
+		limit 15;
+	</select>
+
+	<select id="getArticleLinks" resultType="hashmap" parameterType="String">
+		select url
+		from olympic.CRAWLINGRESULT_TB
+		where nouns like #{word}
+		limit 20;
+	</select>	
+</mapper>
