@@ -14,3 +14,4 @@
 ***
 ### 1. crawling naver news
 this is using Korean   
+- BuautifulSoup - bs4 and selenium   
