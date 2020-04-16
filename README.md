@@ -1,4 +1,4 @@
-# python3-study
+# Text Mining Project
 - Developent enviroment setting
 
 > python 3.x ver study   
