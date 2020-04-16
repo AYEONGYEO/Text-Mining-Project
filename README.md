@@ -39,9 +39,10 @@ this is using Korean
 |[tfidf.py](https://github.com/YEONGYEO/Text-Mining-Project/blob/master/project/tfidf.py)|단어 빈도수 계산, sklearn tfidf 행렬 값 계산|
 |[stop.txt](https://github.com/YEONGYEO/Text-Mining-Project/blob/master/project/stop.txt)|불용어 text file|
 
-
+   
+![function process](./images/python_process.PNG)      
 ![DB structure](./images/mysql_db.PNG)
-
+   
 
 ***
 
