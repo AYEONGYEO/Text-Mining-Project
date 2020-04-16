@@ -54,7 +54,14 @@ this is using Korean
 > [Force-directed network](https://www.amcharts.com/demos/force-directed-network/)   
 > [Changing data of Word cloud](https://www.amcharts.com/demos/changing-data-word-cloud/)   
 > [Clustered Bar Chart](https://www.amcharts.com/demos/clustered-bar-chart/)     
-
+    
+- spring boot 구조   
+지금 현재 프로젝트에는 2가지 방식의 구조가 있음   
+mapper에서 가져온 데이터는 controlelr가 view 한테 보내고 다시 view를 가져와서 client 에 응답   
+   
+   - client > controller > service > service implement > dao > mapper xml > db
+   - client > controller > mapper > mapper xml > db
+   
 - 시연 동영상   
 주제 : 2020 도쿄 올림픽   
    
