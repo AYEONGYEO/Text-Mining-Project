@@ -2,7 +2,7 @@
 문서 수집 (crawling) > 형태소 분석 (koNLPy) > 시각화 (web, spring-boot, wordcloud, amcharts)
 - Developent enviroment setting
 
-> python 3.x ver study   
+> python 3.x ver    
 > database - elasticsearch, mysql   
 > web - spring boot 2.x ver with mybatis, maven, thymeleaf, AM chart   
    
