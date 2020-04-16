@@ -40,7 +40,9 @@ this is using Korean
 |[stop.txt](https://github.com/YEONGYEO/Text-Mining-Project/blob/master/project/stop.txt)|불용어 text file|
 
    
+- 전체 과정
 ![function process](./images/python_process.PNG)      
+- MySql database 구조
 ![DB structure](./images/mysql_db.PNG)
    
 
