@@ -47,4 +47,17 @@ this is using Korean
    
 
 ***
+### web   
+> spring boot 2.x ver with mybatis, maven, Thymeleaf, Bootstrap, AM charts 4    
+   
+- AM charts 4
+> [Force-directed network](https://www.amcharts.com/demos/force-directed-network/)   
+> [Changing data of Word cloud](https://www.amcharts.com/demos/changing-data-word-cloud/)   
+> [Clustered Bar Chart](https://www.amcharts.com/demos/clustered-bar-chart/)     
+
+- 시연 동영상   
+주제 : 2020 도쿄 올림픽   
+https://www.youtube.com/watch?v=fTSoUUpPoDI&feature=youtu.be
+[![web testing](https://ㅑㅡㅎ.youtube.com/watch?v=fTSoUUpPoDI/0.jpg)](https://www.youtube.com/watch?v=fTSoUUpPoDI?t=0s)
+
 
