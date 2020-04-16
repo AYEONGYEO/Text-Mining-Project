@@ -40,6 +40,8 @@ this is using Korean
 |[stop.txt](https://github.com/YEONGYEO/Text-Mining-Project/blob/master/project/stop.txt)|불용어 text file|
 
 
+![DB structure](./images/mysql_db.PNG)
+
 
 ***
 
